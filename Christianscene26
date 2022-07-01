@@ -1,0 +1,4 @@
+<html>    <head>        <title>API document</title>    <link rel="stylesheet" href="loader.css">     <script src="loader.js"></script>    </head>    <body>        <h1>holocoast</h1><section>    <img class="slides" src="wp2162802-hollywood-movie-wallpapers.jpg"  style="width:100%">    <img class="slides" src="wp6955661-animation-movies-wallpapers.jpg"  style="width:100%"></section>        <!-- New script --> <script type="text/javascript">     var index = 0;    change();function change() {    var x = document.getElementsByClassName('slides');    for(var i = 0;i < x.length; i++){        x[i].style.display = "none";    }    index++;    if(index > x.length){        index= 1;    }    x[index -1].style.display = "block";    setTimeout(change, 5000);}</script></body></html>
+<Style>
+h1:hover{    color:burlywood;    text-transform: uppercase;}button{    size: 50px;    text-align: center;}body{    background-color: cadetblue;}img{    width:40%;    height: 40%;}
+</Style>
